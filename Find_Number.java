@@ -23,4 +23,4 @@ public class Find_Number {
 		} while (inputNo != randNo);
 	}
 }
-//hola que tal
+//hola que tal soy colosal
