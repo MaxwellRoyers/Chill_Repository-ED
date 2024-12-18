@@ -6,18 +6,18 @@ public class Find_Number {
 		Scanner scan = new Scanner(System.in);
 		Random rand = new Random();
 		randNo = rand.nextInt(101);
-		System.out.println("Guess the number between 1 to 100\n");
+		System.out.println("Adivina el numero del 1 al 100\n");
 		do {
 			inputNo = scan.nextInt();
 			if (inputNo > randNo) {
-				System.out.println("Lower number!!");
+				System.out.println("Mas bajo!!");
 			}
 			if (inputNo < randNo) {
-				System.out.println("Higher number!!");
+				System.out.println("Mas alto!!");
 			}
 			if (inputNo == randNo) {
-				System.out.println("Correct!!");
-				System.out.println("You guessed in " + userAttempt + "  attempts.");
+				System.out.println("Correcto!!");
+				System.out.println("Lo has adivinado en " + userAttempt + "  intentos.");
 			}
 			userAttempt++;
 		} while (inputNo != randNo);
