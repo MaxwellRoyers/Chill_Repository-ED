@@ -27,3 +27,4 @@ public class ConversorTemperaturas {
         System.out.println("\n\t¡Gracias!!..");
     }
 }
+//Oriol raton
