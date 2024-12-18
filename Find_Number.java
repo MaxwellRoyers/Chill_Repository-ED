@@ -23,3 +23,4 @@ public class Find_Number {
 		} while (inputNo != randNo);
 	}
 }
+//hola
