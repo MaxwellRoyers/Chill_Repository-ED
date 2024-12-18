@@ -23,4 +23,4 @@ public class Find_Number {
 		} while (inputNo != randNo);
 	}
 }
-//Rata calva
+//Like a dragon :)
