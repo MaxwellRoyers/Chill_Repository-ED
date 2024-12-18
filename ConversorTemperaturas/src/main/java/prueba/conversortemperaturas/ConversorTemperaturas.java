@@ -1,4 +1,4 @@
-package prueba.conversortemperaturas;
+package ConversorTemperaturas.src.main.java.prueba.conversortemperaturas;
 
 import java.util.Scanner;
 
